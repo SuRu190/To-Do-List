@@ -1,4 +1,4 @@
-# 📝 To-Do List App
+# 📝 To-Do List
 
 A simple and creative To-Do List web page made using **HTML**, **CSS**, and **JavaScript**. You can add tasks, mark them as completed, or delete them easily with single or double clicks. It's responsive and works well on both desktop and mobile screens.
 
@@ -6,7 +6,7 @@ A simple and creative To-Do List web page made using **HTML**, **CSS**, and **Ja
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the live project](https://yourusername.github.io/To-Do-List/)  
+🔗 [Click here to view the live project](https://suru190.github.io/To-Do-List/)  
 
 ---
 
