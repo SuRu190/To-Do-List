@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.todo-container {
+    max-width: 400px;
+    margin-top: 50px;
+    background: white;
+    padding: 20px 25px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    background: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    font-size: 16px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    transform: 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Responsive Styles */
+@media (max-width: 380px) {
+    .todo-container {
+        padding: 15px 20px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .input-section {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    #taskInput, #addBtn {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    li {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
