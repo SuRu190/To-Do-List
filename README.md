@@ -2,9 +2,6 @@
 
 A simple and interactive **To-Do List** web page that allows users to add, mark as complete, and delete tasks with a clean and responsive UI. Built using **HTML, CSS, and JavaScript**.
 
-![Desktop View](./desktop-view.png)
-![Mobile View](./mobile-view.jpeg)
-
 ---
 
 ## 🌐 Live Demo
@@ -29,7 +26,7 @@ A simple and interactive **To-Do List** web page that allows users to add, mark 
 <img src="./desktop-view.png" alt="Desktop Screenshot" width="500"/>
 
 ### 📱 Mobile View
-<img src="./mobile-view.jpeg" alt="Mobile Screenshot" width="250"/>
+<img src="./mobile-view.png" alt="Mobile Screenshot" width="250"/>
 
 ---
 
