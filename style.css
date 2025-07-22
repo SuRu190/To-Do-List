@@ -19,13 +19,18 @@ body {
 }
 
 h1 {
-  text-align: center;
   margin-bottom: 25px;
   color: #333;
 }
 
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 input {
-  width: 65%;
+  flex: 1 1 200px;
   padding: 10px;
   font-size: 16px;
   border: 2px solid #ddd;
@@ -35,18 +40,18 @@ input {
 
 button {
   padding: 10px 16px;
-  margin-left: 10px;
   font-size: 16px;
   border: none;
-  background-color: #4caf50;
+  background-color: orangered;
   color: white;
-  border-radius: 6px;
+  border-radius: 40px;
   cursor: pointer;
+  font-weight: 600;
   transition: background 0.3s ease;
 }
 
-button:hover {
-  background-color: #45a049;
+.input-section button:hover {
+  background-color: rgb(207, 58, 4);
 }
 
 ul {
@@ -63,11 +68,11 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  flex-wrap: wrap;
 }
 
 li:hover {
-  background-color: rgba(169, 169, 169, 0.29);
+  background-color: rgba(169, 169, 169, 0.326);
 }
 
 li.completed .task-text {
@@ -80,6 +85,7 @@ li.completed .task-text {
   margin-right: 10px;
   font-size: 17px;
   color: #333;
+  word-break: break-word;
 }
 
 li button {
@@ -95,10 +101,27 @@ li button:hover {
   transform: scale(1.2);
 }
 
-.edit-btn {
-  color: #007bff;
+.edit-btn:hover {
+  background-color: #007bff;
 }
 
-.delete-btn {
-  color: #e53935;
+.delete-btn:hover {
+  background-color: #007bff;
+}
+
+/* ✅ Responsive Fixes */
+@media (max-width: 500px) {
+  .input-section {
+    flex-direction: column;
+  }
+
+  input,
+  .input-section button {
+    width: 100%;
+    margin: 0;
+  }
+
+  .input-section button {
+    margin-top: 5px;
+  }
 }
