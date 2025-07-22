@@ -6,9 +6,9 @@ A clean, simple, and responsive **To-Do List WebPage** built using **HTML, CSS, 
 
 ---
 
-## 🔗 Live Demo
+### 🔗 Live Demo
 
-👉 [View Live](https://suru190.github.io/To-Do-List/)
+👉 [Click here to View](https://suru190.github.io/To-Do-List/)
 
 ---
 
@@ -27,7 +27,7 @@ A clean, simple, and responsive **To-Do List WebPage** built using **HTML, CSS, 
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 
 ---
 
