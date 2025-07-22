@@ -1,49 +1,32 @@
-# 📝 To-Do List
+# ✅ To-Do List
 
-A simple and interactive **To-Do List** web page that allows users to add, mark as complete, and delete tasks with a clean and responsive UI. Built using **HTML, CSS, and JavaScript**.
-
----
-
-## 🌐 Live Demo
-
-🔗 [Click here to view the live site](https://suru190.github.io/To-Do-List/)
+A modern and responsive **To-Do List** webpage built using **HTML, CSS, and JavaScript**.  
+This app allows users to add, mark as complete, edit, and delete tasks with a smooth user experience.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add new tasks
-- ✅ Mark tasks as completed by clicking once
-- ❌ Delete tasks by double-clicking
-- 📱 Responsive design for mobile & desktop
-- ✨ Clean and minimalist UI
+- ✍️ Add new tasks
+- ✅ Mark tasks as completed
+- 🔄 Edit existing tasks
+- 🗑️ Delete tasks
+- 📱 Fully responsive (works on mobile screens)
+- 💅 Stylish UI with hover effects and transitions
+- 🎨 Beautiful gradient background and modern UI design
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
-### 💻 Desktop View
-<img src="./desktop-view.png" alt="Desktop Screenshot" width="500"/>
-
-### 📱 Mobile View
-<img src="./mobile-view.png" alt="Mobile Screenshot" width="250"/>
+![To-Do List Preview](https://github.com/suru190/To-Do-List/assets/desktop-view.png)
 
 ---
 
-## 🔧 Tech Used
+## 🛠️ Tech Stack
 
-- HTML5
-- CSS3 (Media Queries for responsiveness)
-- JavaScript (DOM Manipulation, Events)
-
----
-
-## 🧠 What I Learned
-
-- Using `addEventListener()` for `click` and `dblclick`
-- Creating and appending elements dynamically with JavaScript
-- Toggling CSS classes to style completed tasks
-- Using media queries for responsive design
-- Git & GitHub basics: init, commit, push, remove files, and ignore folders
+- **HTML** – Structure
+- **CSS** – Styling and responsive design
+- **JavaScript** – Functionality and interactivity
 
 ---
