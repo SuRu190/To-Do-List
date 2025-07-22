@@ -1,32 +1,43 @@
-# ✅ To-Do List
+# 📝 To-Do List
 
-A modern and responsive **To-Do List** webpage built using **HTML, CSS, and JavaScript**.  
-This app allows users to add, mark as complete, edit, and delete tasks with a smooth user experience.
+A clean, simple, and responsive **To-Do List WebPage** built using **HTML, CSS, and JavaScript**. This project helps users add, mark as complete, edit, and delete their daily tasks efficiently.
+
+![Preview Screenshot](desktop-view.png)
+
+---
+
+## 🔗 Live Demo
+
+👉 [View Live](https://suru190.github.io/To-Do-List/)
 
 ---
 
 ## 🚀 Features
 
-- ✍️ Add new tasks
-- ✅ Mark tasks as completed
-- 🔄 Edit existing tasks
-- 🗑️ Delete tasks
-- 📱 Fully responsive (works on mobile screens)
-- 💅 Stylish UI with hover effects and transitions
-- 🎨 Beautiful gradient background and modern UI design
-
----
-
-## 📸 Preview
-
-![To-Do List Preview](https://github.com/suru190/To-Do-List/assets/desktop-view.png)
+- ✅ Add tasks to your list
+- ✅ Mark tasks as complete/incomplete
+- ✅ Edit tasks
+- ✅ Delete tasks
+- ✅ Responsive on mobile, tablet, and desktop
+- ✅ Clean and modern UI with smooth transitions
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML** – Structure
-- **CSS** – Styling and responsive design
-- **JavaScript** – Functionality and interactivity
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
 
 ---
+
+## 📂 Folder Structure
+
+```bash
+To-Do-List/
+│
+├── index.html          # Main HTML file
+├── style.css           # Styling file
+├── script.js           # Functionality with JavaScript
+├── desktop-view.png    # Screenshot of the project
+└── README.md           # Project documentation
