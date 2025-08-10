@@ -1,9 +1,7 @@
 
 ---
 
-## **To-Do List – README.md**
-```markdown
-# 📝 To-Do List
+# **To-Do List – README.md**
 
 A simple and responsive **To-Do List App** for adding, editing, marking, and deleting tasks.  
 Built with a clean interface and smooth animations.
