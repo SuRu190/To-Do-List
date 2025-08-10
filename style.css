@@ -21,16 +21,17 @@ body {
 h1 {
   margin-bottom: 25px;
   color: #333;
+  text-align: center;
 }
 
 .input-section {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 input {
-  flex: 1 1 200px;
+  flex: 1;
   padding: 10px;
   font-size: 16px;
   border: 2px solid #ddd;
@@ -101,27 +102,44 @@ li button:hover {
   transform: scale(1.2);
 }
 
-.edit-btn:hover {
-  background-color: #007bff;
-}
-
-.delete-btn:hover {
-  background-color: #007bff;
-}
-
-/* ✅ Responsive Fixes */
 @media (max-width: 500px) {
+  .container {
+    box-sizing: border-box;
+  }
+
   .input-section {
     flex-direction: column;
+    gap: 8px;
   }
 
-  input,
-  .input-section button {
-    width: 100%;
-    margin: 0;
+  input {
+    width: 91%;
+    font-size: 14px;
+    padding: 8px;
   }
 
   .input-section button {
-    margin-top: 5px;
+    width: 96%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
   }
+}
+
+@media (max-width: 350px) {
+    li {
+      flex-direction: row;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    .task-text {
+      font-size: 16px;
+    }
+  
+    li button {
+      font-size: 16px;
+      display: flex;
+      flex-direction: row;
+    }
 }
