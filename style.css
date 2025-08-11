@@ -81,6 +81,10 @@ li.completed .task-text {
   color: gray;
 }
 
+li.completed {
+    background-color: transparent;
+}
+
 .task-text {
   flex-grow: 1;
   margin-right: 10px;
