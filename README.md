@@ -8,7 +8,9 @@ Built with a clean interface and smooth animations.
 
 ---
 
-![Preview Screenshot](desktop-view.png)
+![Desktop Screenshot](desktop-view.png)
+
+![Mobile Screenshot](mobile-view.png)
 
 ---
 
